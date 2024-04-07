@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+       
+}
+
+.main-container {
+    display: flex;
+}
+
+.scratch-box {
+    position: relative;
+    margin: auto;
+}
+
+#scratch {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#scratch > canvas {
+}
+
+.no-scratch {
+    position: absolute;
+    z-index: -1;
+}
